@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="sidebar" class="position-fixed d-flex">
+        <div class="content position-relative">
+            <div id="closeButton" class="position-absolute">
+                <i class="fa-solid fa-x fa-lg"></i>
+            </div>
+            <div class="links d-flex flex-column">
+                <a id="homeLink" href="#home">Home</a>
+                <a id="singerLink" href="#singerSection">Details</a>
+                <a id="countDownLink" href="#countDownSection">CountDown</a>
+                <a id="contactUsLink" href="#contactUs">Contact Us</a>
+            </div>
+        </div>
+        <div id="openButton">
+            <p><i class="fa-solid fa-bars fa-xl me-2"></i>Open</p>
+        </div>
+    </div>
+
+    <section id="home" class="d-flex justify-content-center align-items-center position-relative">
+        <div class="content text-center">
+            <h1>Egyptian Party</h1>
+            <h5>Coming Soon!</h5>
+        </div>
+    </section>
+
+    <section id="singerSection">
+        <h2>Singer One</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+        <h2>Singer Two</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+        <h2>Singer Three</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+        <h2>Singer Four</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+
+    <section id="countDownSection" class="d-flex justify-content-around text-center align-items-center">
+        <div>
+            <p id="days">00</p>
+            <h4>Days</h4>
+        </div>
+        <div>
+            <p id="hours">00</p>
+            <h4>Hours</h4>
+        </div>
+        <div>
+            <p id="minutes">00</p>
+            <h4>Minutes</h4>
+        </div>
+        <div>
+            <p id="seconds">00</p>
+            <h4>Seconds</h4>
+        </div>
+    </section>
+
+    <section id="contactUs" class="vh-100 d-flex align-items-center">
+        <div class="content container">
+            <div class="row">
+                <div class="contactInfo col-md-6">
+                    <h2 class="mb-4">JOIN US</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    <h4 class="mb-4">CONTACT INFO</h4>
+                    <p class="mb-4 text-center">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit. Aenean
+                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus natoque
+                        consectetuer.</p>
+                    <ul class="list-unstyled mb-5">
+                        <li class="my-2"><i class="fa-solid fa-location-pin mx-2"></i>New Street 22545, Nexa Road, New York City, USA </li>
+                        <li class="my-2"><i class="fa-solid fa-envelope mx-2"></i><span class="text-danger">hello@uigrid.com</span> </li>
+                        <li class="my-2"><i class="fa-solid fa-phone mx-2"></i> 001-000-000-000</li>
+                    </ul>
+
+                    <div class="socialMedia d-flex align-items-center">
+                        <div class="square text-muted d-flex justify-content-center align-items-center"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="square text-muted d-flex justify-content-center align-items-center"><i class="fa-brands fa-facebook-f"></i></div>                        
+                        <div class="square text-muted d-flex justify-content-center align-items-center"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="square text-muted d-flex justify-content-center align-items-center"><i class="fa-brands fa-dribbble"></i></div>                        
+                        <div class="square text-muted d-flex justify-content-center align-items-center"><i class="fa-brands fa-pinterest"></i></div>
+                    </div>
+                </div>
+                <div class="contactForm col-md-6 pt-5">
+                    <input type="text" class="form-control mb-3 rounded-0" placeholder="Enter Name">
+                    <input type="text" class="form-control mb-3 rounded-0" placeholder="Enter Email">
+                    <textarea name="message" id="message" cols="30" rows="10" data-max-characters="100"  placeholder="Enter Message here"
+                        class="form-control rounded-0 mb-3"></textarea>
+                    <p id="charMessage"><span id="charactersRemaining">100</span> Character remaining</p>
+                    <button class="border-0">Send message</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

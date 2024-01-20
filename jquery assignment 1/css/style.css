@@ -1,0 +1,155 @@
+/* General styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Home section styling */
+
+#home {
+    background-image: url("../images/196620-3840x2160-desktop-4k-party-wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home .content {
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+#home h5 {
+    font-size: 40px;
+    color: white;
+}
+
+/* sidebar section styling */
+
+#sidebar {
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    left: -268.05px;
+}
+
+#sidebar .content {
+    background-color: black;
+    padding: 50px;
+}
+
+#openButton {
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px ;
+}
+
+#sidebar .content a {
+    margin: 20px 0;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+
+#closeButton {
+    position: absolute;
+    right: 0;
+    padding: 0 20px;
+}
+
+#closeButton i {
+    color:white;
+    right: 0;
+    top: 0;
+    transition: all 0.2s;
+}
+
+#sidebar .content a:hover, #closeButton i:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+/* Singer section styling */
+
+#singerSection {
+    max-width: 800px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+#singerSection h2 {
+    background-color: #DC6839;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#singerSection div {
+    background-color: #F2F7FC;
+    padding: 10px;
+    display: none;
+}
+
+/* Countdown section styling */
+
+#countDownSection {
+    height: 350px;
+    background-image: url("../images/196620-3840x2160-desktop-4k-party-wallpaper.jpg");
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#countDownSection div {
+    border: 2px solid white;
+    padding: 40px;
+    color:white;
+    backdrop-filter: blur(8px);
+}
+
+#countDownSection p {
+    font-size:2rem ;
+}
+
+/* contact Us section styling */
+
+#contactUs .contactForm button {
+    padding: 10px 30px;
+    background-color: #DC6839;
+    color:white;
+}
+
+#charactersRemaining {
+    color: #DC6839;
+    font-size: 1.3rem;
+}
+
+#contactUs .square {
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+    margin: 0 6px;
+}
+
+#contactUs .square:hover {
+    background-color: #DC6839 ;
+    border: none;
+    cursor: pointer;
+}
+
+#contactUs .square:hover i {
+    color:white;
+}
